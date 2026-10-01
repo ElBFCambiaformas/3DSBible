@@ -16,7 +16,6 @@ Touch screen: All of the above
 
 
 This includes two languages:
-
 English (KJV (en): KJV: King James Version (1769) with Strongs Numbers and Morphology and CatchWords)
 
 Spanish (SpaRV (es): SpaRV: La Santa Biblia Reina-Valera (1909))

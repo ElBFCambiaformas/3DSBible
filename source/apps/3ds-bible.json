@@ -1,39 +1,19 @@
 {
-	"github": "elbfcambiaformas/3dsbible",
-	"author": "Fell!ElBFC",
-	"title": "The Holy 3DS Bible",
-	"description": "You can read The Bible from your 3DS!",
-	"systems": ["3DS"],
-	"categories": ["app"],
-	"unique_ids": [19094],
-	"download_filter": "-(3ds|nds)\\.zip",
-	"image": "https://raw.githubusercontent.com/yourname/myproject/main/meta/banner.png",
-	"icon": "https://raw.githubusercontent.com/yourname/myproject/main/meta/icon.png",
-	"long_description": "You can read The Bible in your 3DS!\n\nControls:\nD-Pad: Move around the UI, and changing pages while reading a book\nY: Change language\nL/R: Changing chapters (while reading)\nA: changing pages while reading a book\nTouch screen: All of the above\nThis includes two languages:\n\nEnglish (KJV (en): KJV: King James Version (1769) with Strongs Numbers and Morphology and CatchWords)\nSpanish (SpaRV (es): SpaRV: La Santa Biblia Reina-Valera (1909))",
-	"scripts": {
-		"3DSBible.3dsx": [
-			{
-				"type": "downloadRelease",
-				"repo": "yourname/myproject",
-				"file": "3DSBible.zip",
-				"output": "/3DSBible.zip"
-			},
-			{
-				"type": "extractFile",
-				"file": "/3DSBible.zip",
-				"input": "3DSBible.3dsx",
-				"output": "/3ds/"
-			},
-			{
-				"type": "extractFile",
-				"file": "/3DSBible.zip",
-				"input": "3DSBible",
-				"output": "/3ds/"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/3DSBible.zip"
-			}
-		]
-	}
+	"github": "ElBFCambiaformas/3DSBible",
+	"author": "Fell!ElBFCambiaformas",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/ElBFCambiaformas/3DSBible/refs/heads/main/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/ElBFCambiaformas/3DSBible/refs/heads/main/main/meta/banner.png",
+	"unique_ids": [
+		19094
+	],
+	"long_description": "You can read The Bible in your 3DS!\\n\\nControls:\\nD-Pad: Move around the UI, and changing pages while reading a book\\nY: Change language\\nL/R: Changing chapters (while reading)\\nA: changing pages while reading a book\\nTouch screen: All of the above\\nThis includes two languages:\\n\\nEnglish (KJV (en): KJV: King James Version (1769) with Strongs Numbers and Morphology and CatchWords)\\nSpanish (SpaRV (es): SpaRV: La Santa Biblia Reina-Valera (1909))",
+	"download_filter": "3ds",
+	"autogen_scripts": false
 }

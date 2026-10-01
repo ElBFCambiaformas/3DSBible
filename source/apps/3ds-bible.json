@@ -1,0 +1,17 @@
+{
+	"github": "elbfcambiaformas/3ds-bible",
+	"title": "The Holy 3DS Bible",
+	"description": "You can read The Bible from your 3DS!",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/elbfcambiaformas/3ds-bible/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/elbfcambiaformas/3ds-bible/main/meta/banner.png",
+	"unique_ids": [
+		19094
+	]
+}

@@ -10,8 +10,6 @@
 	"image": "https://raw.githubusercontent.com/yourname/myproject/main/meta/banner.png",
 	"icon": "https://raw.githubusercontent.com/yourname/myproject/main/meta/icon.png",
 	"long_description": "You can read The Bible in your 3DS!\n\nControls:\nD-Pad: Move around the UI, and changing pages while reading a book\nY: Change language\nL/R: Changing chapters (while reading)\nA: changing pages while reading a book\nTouch screen: All of the above\nThis includes two languages:\n\nEnglish (KJV (en): KJV: King James Version (1769) with Strongs Numbers and Morphology and CatchWords)\nSpanish (SpaRV (es): SpaRV: La Santa Biblia Reina-Valera (1909))",
-	"autogen_scripts": true,
-	"script_message": "This will be shown at the end of the script if auto-generated.\n\nDo not use this unless you have very important info.",
 	"scripts": {
 		"3DSBible.3dsx": [
 			{
